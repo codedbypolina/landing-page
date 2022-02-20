@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Language Lovers Newsletter🌍</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair Display"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background-color: #f7ede2;
+        font-family: "Playfair Display";
+      }
+
+      header {
+        margin: 0;
+        padding: 0;
+        padding: 0px;
+        width: 100%;
+      }
+
+      ul {
+        background-color: #84a59d;
+        color: #f7ede2;
+        list-style-type: none;
+        margin: 0% auto;
+        padding: 30px;
+        text-align: center;
+        border-radius: 20px;
+      }
+      li {
+        margin: 30px;
+        display: inline;
+        font-size: 30px;
+        font-weight: 900;
+      }
+
+      a {
+        text-decoration: none;
+        color: #f7ede2;
+      }
+
+      ul li a:hover {
+        border-bottom: 3px solid #f7ede2;
+        padding-bottom: 3px;
+      }
+
+      #girl-illustration {
+        float: left;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+
+      #parent {
+        position: relative;
+      }
+
+      #languages {
+        clear: both;
+        background-color: #f5cac3;
+        width: 80%;
+        margin: 0 auto;
+        padding: 15px;
+        border-radius: 20px;
+        position: relative;
+        z-index: 9;
+      }
+
+      #green {
+        clear: both;
+        background-color: #84a59d;
+        width: 80%;
+        height: 345.781px;
+        margin: 0 auto;
+        padding: 15px;
+        border-radius: 20px;
+        position: absolute;
+        top: 105px;
+        left: 70px;
+      }
+
+      h2 {
+        color: #84a59d;
+        text-align: center;
+        font-size: 30px;
+      }
+      .flex {
+        display: flex;
+      }
+      .container {
+        position: relative;
+      }
+
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 222px;
+        width: 287px;
+        border-radius: 40px;
+        margin: 15px;
+        opacity: 0;
+        transition: all 200ms ease-in-out;
+        background-color: #ff4b4b;
+      }
+
+      .container:hover .overlay {
+        opacity: 1;
+      }
+      .white {
+        background-color: #ecf0eb;
+      }
+
+      .blue {
+        background-color: #1bb2f5;
+      }
+
+      .text {
+        display: inline;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .spanish {
+        color: #ffc800;
+      }
+
+      .japanese {
+        color: #ff4b4b;
+      }
+
+      .russian {
+        color: #ecf0eb;
+      }
+
+      .flag {
+        border-radius: 40px;
+        margin: 15px;
+        transition: all 200ms ease-in-out;
+      }
+
+      .flag:hover {
+        opacity: 70%;
+      }
+
+      h1 {
+        text-align: center;
+        color: #84a59d;
+        font-weight: 900;
+        padding: 10px;
+      }
+      p {
+        color: #f28482;
+        font-size: 27px;
+        word-spacing: 15px;
+        text-align: justify;
+        margin: 40px;
+        line-height: 1.5;
+      }
+
+      #center {
+        margin: 50px;
+      }
+
+      #newsletter {
+        margin: 0 auto;
+      }
+      button {
+        border: 2px solid #84a59d;
+        padding: 25px 90px;
+        background-color: #84a59d;
+        color: #f7ede2;
+        border-radius: 5px;
+        transition: all 200ms ease-in-out;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        margin-left: 300px;
+        font-family: "Playfair Display";
+      }
+
+      button:hover {
+        background-color: #f7ede2;
+        color: #84a59d;
+        border: 2px solid #84a59d;
+      }
+      #language-illustration {
+        float: right;
+      }
+      #name {
+        color: #f28482;
+        text-decoration: underline;
+      }
+
+      #credit {
+        margin-left: 364px;
+        color: #f28482;
+        font-size: 18px;
+        margin-top: 30px;
+      }
+
+      #name:hover {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#parent">LANGUAGES</a></li>
+          <li><a href="#newsletter">NEWSLETTER</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--About Section-->
+    <div id="about">
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/023/500/original/Flat_Character__3.png?1640401658"
+        alt="Illustration of the girl behind computer"
+        width="450px"
+        id="girl-illustration"
+      />
+      <h1><strong>WELCOME LANGUAGE LOVERS!</strong></h1>
+      <p>
+        Language learning is a challenging task, but it should also be an
+        exciting journey! Language Lovers Newsletter was created for folks who
+        share a passion for languages, cultures, and traveling.
+      </p>
+    </div>
+
+    <!--Languages Section-->
+    <div id="parent">
+      <div id="languages">
+        <h2>Some of the languages discussed in the newsletter:</h2>
+        <div class="flex">
+          <!--Spanish-->
+          <div class="container">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/023/502/original/Spanish.png?1640401690"
+              alt="Illustration of the Spanish flag"
+              width="287"
+              class="flag"
+            />
+            <a
+              href="https://en.wikipedia.org/wiki/Spanish_language"
+              target="_blank"
+            >
+              <div class="overlay red">
+                <div class="text spanish">
+                  <strong>ESPAÑOL</strong>
+                  <br />
+                  Spanish
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!--Japanese-->
+          <div class="container">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/023/504/original/Japanese.png?1640401699"
+              alt="Illustration of the Japanese flag"
+              width="287"
+              class="flag"
+            />
+            <a
+              href="https://en.wikipedia.org/wiki/Japanese_language"
+              target="_blank"
+            >
+              <div class="overlay white">
+                <div class="text japanese">
+                  <strong>日本語</strong>
+                  <br />
+                  Japanese
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!--Russian-->
+          <div class="container">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/023/503/original/Russian.png?1640401695"
+              alt="Illustration of the Russian flag"
+              width="287"
+              class="flag"
+            />
+            <a
+              href="https://en.wikipedia.org/wiki/Russian_language"
+              target="_blank"
+            >
+              <div class="overlay blue">
+                <div class="text russian">
+                  <strong>РУССКИЙ</strong>
+                  <br />
+                  Russian
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="green"></div>
+    </div>
+
+    <!--Newsletter Section-->
+    <div id="newsletter">
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/023/501/original/Website.png?1640401667"
+        alt="Illustration of the girl with foreign greetings"
+        width="450px"
+        id="language-illustration"
+      />
+      <p id="center">
+        Interested in getting practical advice, useful resources, or
+        inspirational stories on language learning? Subscribe to Language Lovers
+        Newsletter to get updates every Monday :)
+      </p>
+      <button>Subscribe</button>
+    </div>
+    <div id="credit">
+      This project was coded and designed by
+      <a href="https://www.instagram.com/p.s.paulina/" id="name" target="_blank"
+        >Paulina</a
+      >
+    </div>
+    <script>
+      function subscribe() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email?");
+        let language = prompt("What language are you interested in?");
+
+        language = language.toLowerCase();
+        language = language.trim();
+        language = language.replace("brasil", "brazil");
+
+        if (language === "spanish") {
+          alert(
+            "Gracias (thank you) " +
+              name +
+              "! We sent a verification code to your email. Can't wait to help you on your journey with Spanish! 🇪🇸"
+          );
+        } else if (language === "french") {
+          alert(
+            "Merci (thank you) " +
+              name +
+              "! We sent a verification code to your email. Can't wait to help you on your journey with French! 🇫🇷"
+          );
+        } else if (language === "portuguese") {
+          alert(
+            "Obrigado (thank you) " +
+              name +
+              "! We sent a verification code to your email. Can't wait to help you on your journey with Portuguese! 🇵🇹"
+          );
+        } else if (language === "italian") {
+          alert(
+            "Grazie (thank you) " +
+              name +
+              "! We sent a verification code to your email. Can't wait to help you on your journey with Italian! 🇮🇹"
+          );
+        } else if (language === "russian") {
+          alert(
+            "Спасибо (thank you) " +
+              name +
+              "! We sent a verification code to your email. Can't wait to help you on your journey with Russian! 🇷🇺"
+          );
+        } else if (language === "kyrgyz") {
+          alert(
+            "Рахмат (thank you) " +
+              name +
+              "! We sent a verification code to your email. Can't wait to help you on your journey with Kyrgyz! 🇰🇬"
+          );
+        } else if (language === "german") {
+          alert(
+            "Danke (thank you) " +
+              name +
+              "! We sent a verification code to your email. Can't wait to help you on your journey with German! 🇩🇪"
+          );
+        } else if (language === "japanese") {
+          alert(
+            "ありがと (thank you) " +
+              name +
+              "! We sent a verification code to your email. Can't wait to help you on your journey with Japanese! 🇯🇵"
+          );
+        } else if (language === "chinese") {
+          alert(
+            "谢谢 (thank you) " +
+              name +
+              "! We sent a verification code to your email. Can't wait to help you on your journey with Chinese! 🇨🇳"
+          );
+        } else if (language === "vietnamese") {
+          alert(
+            "Cảm ơn (thank you) " +
+              name +
+              "! We sent a verification code to your email. Can't wait to help you on your journey with Vietnamese! 🇻🇳"
+          );
+        } else if (language === "korean") {
+          alert(
+            "감사 해요 (thank you) " +
+              name +
+              "! We sent a verification code to your email. Can't wait to help you on your journey with Korean! 🇰🇷"
+          );
+        } else {
+          alert(
+            "Thank you " +
+              name +
+              "! We sent a verification code to your email. Can't wait to help you on your journey with " +
+              language +
+              "! 🌍"
+          );
+        }
+      }
+      let subscribeButton = document.querySelector("button");
+      subscribeButton.addEventListener("click", subscribe);
+    </script>
+  </body>
+</html>
